@@ -1,3 +1,6 @@
+BELHADJ MANSOUR Haythem
+3ICS - CPE Lyon
+
 # Exercice 1
 
 1 - Sur vSphère, aller dans les paramètres de notre VM, puis cliquer sur "Ajouter un périphérique", puis sélectionner "Disque Dur". Après l'ajout, alloué 5 Go au nouveau disque dur et sélectionner un provisionnement dynamique. On enregistre les modifications et on peut lancer la VM.
