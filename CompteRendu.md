@@ -11,15 +11,14 @@ Les partitions crées sont de type *Linux* (83). Pour modifier le type de la sec
 On peut vérifier le changement en tapant **p**.
 
 4. **mkfs** (Makes File Systems) est la commande à utiliser en ligne de commandes depuis un terminal pour créer et formater un système de fichiers.
-5. Ainsi, on utilise le paramètre **-t** pour spécifier le type de système de fichiers suivi du type de système de fichier puis on précise la partition à formater.
+Ainsi, on utilise le paramètre **-t** pour spécifier le type de système de fichiers suivi du type de système de fichier puis on précise la partition à formater.
 Ex. : sudo mkfs -t ext4 /dev/sdb1 et sudo mkfs -t ntfs /dev/sdb2
 Ou : sudo mkfs.ext4 /dev/sdb1
 
 5. La commande ``df -T`` ne fonctionne pas car notre disque n'est pas encore monté.
 
 6. Pour faire en sorte que les 2 partitions soient montées automatiquement, on peut suivre le tutoriel à cette adresse : https://doc.ubuntu-fr.org/mount_fstab.
-Ex.:
-# /data was 
+Ex.: /data was 
 7. En utilisant la commande ``mount -a``, cette commande exécute le fstab comme si votre machine venait de démarrer. On peut vérifier que leur montage a été effectué en faisant la commande ``df -T``. On remarque bien la présence des deux nouvelles partitions.
 
 8. Pas possible.
